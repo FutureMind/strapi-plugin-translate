@@ -20572,7 +20572,6 @@ __metadata:
     react-dom: ^18.0.0
     react-router-dom: ^6.0.0
     start-server-and-test: ^2.0.3
-    strapi-plugin-translate: "link:.yalc/strapi-plugin-translate"
     styled-components: ^6.0.0
   languageName: unknown
   linkType: soft
@@ -23632,12 +23631,6 @@ __metadata:
   checksum: c469b9519de16a4bb19600205cffb39ee471a5f17b82589757ca7bd40a8d92ebb6ed9f98b5a540c5d302ccbc78f15dc03cc0280dd6e00df1335568a5d5758a5c
   languageName: node
   linkType: hard
-
-"strapi-plugin-translate@link:.yalc/strapi-plugin-translate::locator=playground%40workspace%3Aplayground":
-  version: 0.0.0-use.local
-  resolution: "strapi-plugin-translate@link:.yalc/strapi-plugin-translate::locator=playground%40workspace%3Aplayground"
-  languageName: node
-  linkType: soft
 
 "strapi-plugin-translate@workspace:plugin":
   version: 0.0.0-use.local
