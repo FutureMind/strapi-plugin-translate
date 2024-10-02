@@ -1,6 +1,7 @@
 {
   "name": "strapi-translate-monorepo",
   "private": true,
+  "version": "1.2.5-1",
   "workspaces": [
     "plugin",
     "providers/deepl",
