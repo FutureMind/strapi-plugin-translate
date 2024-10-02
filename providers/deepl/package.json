@@ -1,20 +1,20 @@
 {
   "name": "strapi-provider-translate-deepl",
   "version": "1.1.13",
-  "description": "DeepL provider for translate plugin in Strapi 4",
+  "description": "DeepL provider for translate plugin in Strapi 4. Note this is a fork repo!",
   "keywords": [
     "strapi",
     "translate",
     "provider",
     "deepl"
   ],
-  "homepage": "https://github.com/fekide/strapi-plugin-translate",
+  "homepage": "https://github.com/FutureMind/strapi-plugin-translate",
   "bugs": {
-    "url": "https://github.com/fekide/strapi-plugin-translate/issues"
+    "url": "https://github.com/FutureMind/strapi-plugin-translate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fekide/strapi-plugin-translate.git"
+    "url": "https://github.com/FutureMind/strapi-plugin-translate.git"
   },
   "license": "MIT",
   "author": {
@@ -31,17 +31,22 @@
       "email": "yannick.lang@feki.de"
     }
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Future Mind"
+    }
+  ],
   "main": "./lib",
   "directories": {
     "lib": "./lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "cd ../../node_modules/deepl-node && npm install && npm run build"
   },
   "dependencies": {
     "bottleneck": "^2.19.5",
-    "deepl-node": "^1.13.1"
+    "deepl-node": "https://github.com/FutureMind/deepl-node"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.0",
