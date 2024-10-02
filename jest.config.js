@@ -1,5 +1,6 @@
+const defaults = require('../jest.config')
+
 module.exports = {
-  coverageDirectory: './coverage/',
-  collectCoverage: true,
-  testMatch: ['**/__tests__/?(*.)+(spec|test).js'],
+  ...defaults,
+  collectCoverageFrom: ['./server/**/*.js'],
 }
